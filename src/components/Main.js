@@ -88,7 +88,7 @@ var ControllerUnit = React.createClass({
     e.stopPropagation();
   },
   render:function(){
-    var ControllerUnitClassName = "controller-unit";
+    var ControllerUnitClassName = 'controller-unit';
 
     if(this.props.arrange.isCenter){
       ControllerUnitClassName += ' is-center';
